@@ -1,0 +1,9 @@
+<tal:block metal:use-macro="here/page_macros/old-new">
+<tal:block metal:fill-slot="title">Footprints</tal:block>
+
+<tal:block metal:fill-slot="contentPane">
+<script src="/++resource++footprints/js/importFootprintsWorkspaces.js"></script>
+<div id="import-footprints-workspaces"></div>
+</tal:block>
+</tal:block>
+
